@@ -1,0 +1,2 @@
+SetEnv PHP_VER 5
+ErrorDocument 404 http://localhost/www/artplume/index.php?page=404

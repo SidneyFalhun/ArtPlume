@@ -1,0 +1,31 @@
+
+	ul {
+		list-style-type: none;
+	}
+	li
+	{
+	margin-bottom:3px;
+	}
+body {
+color:white;
+background-color:black;
+
+}
+a 
+{
+color:#00a9ff;
+text-decoration:none;
+}
+a:link 
+{ 
+ text-decoration:none; 
+} 
+a:hover {
+text-decoration:none;
+}
+label
+{
+	display: block;
+    width: 100px;
+    float: left;
+}
