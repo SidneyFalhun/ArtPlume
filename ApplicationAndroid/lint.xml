@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="SetJavaScriptEnabled">
+        <ignore path="src/com/example/artplume/ArtistesActivity.java" />
+        <ignore path="src/com/example/artplume/EvenementsActivity.java" />
+        <ignore path="src/com/example/artplume/InfoActivity.java" />
+        <ignore path="src/com/example/artplume/ItineraireActivity.java" />
+        <ignore path="src/com/example/artplume/StreamActivity.java" />
+    </issue>
+</lint>

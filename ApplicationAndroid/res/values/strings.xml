@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_pres">Presentation d art plume</string>
+    <!-- Sous titres d'un activité -->
+    <string name="sub_title_newsletter">Inscription à la newsletter</string>
+
+    <!-- Messages à des hint (Placeholder en html) -->
+    <string name="hint_nom">Nom</string>
+    <string name="hint_prenom">Prenom</string>
+    <string name="hint_email">Adresse email</string>
+    <string name="hint_message">Message</string>
+    <string name="hint_sujet">Sujet</string>
+
+    <!-- Messages des differents bouttons -->
+    <string name="but_ok">Envoyer</string>
+    <string name="but_events">Evenements</string>
+    <string name="but_contact">Contact</string>
+    <string name="but_artistes">Artistes</string>
+    <string name="but_itineraire">Itineraire</string>
+    <string name="but_stream">Stream</string>
+    <string name="but_newsletter">Newsletter</string>
+    <string name="but_info">Info</string>
+    <string name="textpres">Bienvenue sur l\'application \n
+	    mobile d\'Art Plume. \n
+	    Ici vous pouvez: \n
+	    	- Voir en live les différents festivals \n
+	    	- Contacter Art Plume \n
+	    	- Afficher la liste des artistes \n
+	    	- Afficher l\'itinéraire pour vous rendre à Art Plume \n
+	    	- Afficher la liste des événements à venir \n
+	    	- Vous inscrire à la Newsletter </string>
+    <string name="app_name">Artplume</string>
+    <string name="vide"></string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_contact">Artplume ~ Contact</string>
+    <string name="title_activity_newsletter">Artplume ~ Newsletter</string>
+    <string name="title_activity_artistes">Artplume ~ Artistes</string>
+    <string name="title_activity_evenements">Artplume ~ Evenements</string>
+    <string name="title_activity_info">Artplume ~ Info</string>
+    <string name="title_activity_itineraire">Artplume ~ Itineraire</string>
+    <string name="title_activity_stream">Artplume ~ Stream</string>
+
+</resources>

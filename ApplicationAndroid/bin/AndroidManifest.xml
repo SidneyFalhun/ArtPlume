@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.artplume"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <permission
+        android:name="com.tutos.android.gmapv2.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    
+    <!-- Permission pour utiliser la connexion internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Permission permettant de vérifier l'état de la connexion -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Permission pour stocker des données en cache de la map -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.tutos.android.gmapv2.permission.MAPS_RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAXPoIxPXvAuQd6W0jk_zSa4PcOl_QE88A" />
+
+        <activity
+            android:name="com.example.artplume.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.artplume.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.example.artplume.NewsletterActivity"
+            android:label="@string/title_activity_newsletter" >
+        </activity>
+        <activity
+            android:name="com.example.artplume.ArtistesActivity"
+            android:label="@string/title_activity_artistes" >
+        </activity>
+        <activity
+            android:name="com.example.artplume.EvenementsActivity"
+            android:label="@string/title_activity_evenements" >
+        </activity>
+        <activity
+            android:name="com.example.artplume.InfoActivity"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.example.artplume.ItineraireActivity"
+            android:label="@string/title_activity_itineraire" >
+        </activity>
+      >
+        <activity
+            android:name="com.example.artplume.StreamActivity"
+            android:label="@string/title_activity_stream" >
+        </activity>
+    </application>
+
+</manifest>
